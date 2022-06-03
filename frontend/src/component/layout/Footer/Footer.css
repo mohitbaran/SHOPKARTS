@@ -1,0 +1,86 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(37, 28, 28);
+    color : white;
+    display: flex;
+    align-items: center;
+}
+
+.leftFooter{
+    width: 30%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftFooter > h4 {
+    font-family: 'Roboto';
+    font-size: 1vmax;
+}
+
+.leftFooter > p{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.2vmax;
+    color: aliceblue;
+}
+
+.leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.midFooter{
+    width: 50%;
+    text-align: center;
+}
+
+.midFooter>img{
+    /* font-size: 4vmax;
+    font-family: 'Roboto';
+    color: rgba(245, 154, 69, 0.719); */
+    width: 19vmax;
+    margin: 1vmax;
+    margin-bottom: -1%;
+}
+
+.midFooter>h2{
+    font-size: 1.3vmax;
+    font-family: 'Roboto';
+    color: rgba(241, 241, 221, 0.815);
+    margin-bottom: 5%;
+}
+
+.midFooter>p{
+    max-width: 60%;
+    font-size: 0.8vmax;
+    margin: 1vmax auto;
+}
+
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightFooter>h4{
+    font-family: 'Roboto';
+    font-size: 1.4vmax;
+    text-decoration: underline;
+}
+
+.rightFooter>a{
+    text-decoration: none;
+    font-size: 1.1vmax;
+    font-family: 'Roboto';
+    transition: all 0.5s;
+    color: white;
+}
+
+.rightFooter>a:hover{
+    color: rgb(253, 134, 98);
+}
